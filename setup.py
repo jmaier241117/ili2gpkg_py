@@ -27,6 +27,7 @@ setup(
     include_package_data=True,
     keywords='ili2gpkg,interlis',
     name='ili2gpkg',
+    url='https://github.com/jmaier241117/ili2gpkg_py',
     packages=find_packages(include=['ili2gpkg', 'ili2gpkg.*']),
     package_data={'ili2gpkg.lib_ext':['*.h', '*.lib', '*.dll', '*.so', '*.dylib']},
     version='0.0.1',
