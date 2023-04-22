@@ -14,7 +14,7 @@ else:
 class Ili2gpkg:
 
     @staticmethod
-    def validate(args: list) -> bool:
+    def convert2GPKG(args: list) -> bool:
         lib_path = files('ili2gpkg.lib_ext').joinpath(lib_name)
         dll = CDLL(str(lib_path))
         isolate = c_void_p()

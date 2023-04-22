@@ -1,9 +1,6 @@
 import os
 from setuptools import setup, find_packages
 
-# buildNumber = 'LOCALBUILD'
-# if os.environ.get('GITHUB_RUN_NUMBER'):
-#     buildNumber = os.environ.get('GITHUB_RUN_NUMBER')
 
 with open('README.md') as readme_file:
     readme = readme_file.read()
@@ -30,5 +27,5 @@ setup(
     url='https://github.com/jmaier241117/ili2gpkg_py',
     packages=find_packages(include=['ili2gpkg', 'ili2gpkg.*']),
     package_data={'ili2gpkg.lib_ext':['*.h', '*.lib', '*.dll', '*.so', '*.dylib']},
-    version='0.0.1',
+    version='0.0.2',
 )
